@@ -1,6 +1,8 @@
-function RoundedButton() {
+import './RoundedBtn.css';
+
+function RoundedButton(props) {
     return (
-        <button>Click To Continue</button>
+        <button className='btn-round'>{props.text}</button>
     );
 }
 
