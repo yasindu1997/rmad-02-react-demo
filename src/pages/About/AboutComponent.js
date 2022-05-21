@@ -4,9 +4,10 @@ import NavBar from "../../components/Navigation/NavBar";
 function AboutComponent() {
     return (
         <div>
-            <NavBar />
+            <NavBar header="About" />
             <h1>This is About page component</h1>
-            <RoundedButton text="Click To Go Home" />
+            <RoundedButton name="Click To Go Home" />
+            <input placeholder="Enter your name"/>
         </div>
     );
 }

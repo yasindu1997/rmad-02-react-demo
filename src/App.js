@@ -4,7 +4,7 @@ import AboutComponent from "./pages/About/AboutComponent";
 function App() {
   return (
     <div>
-      <AboutComponent/>
+      <HomeComponent/>
     </div>
   );
 }
